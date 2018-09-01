@@ -5,8 +5,8 @@ import axios from 'axios';
 import './App.css';
 
 const MACHINE_PARTS = ['x', 'y', 'width', 'height'];
-const CONFIG_IMAGE  = '/configimage.jpg';
-const ROOT_URL      = '/';
+const CONFIG_IMAGE  = '/image';
+const ROOT_URL      = '';
 
 class App extends Component {
 
