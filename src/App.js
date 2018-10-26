@@ -160,7 +160,7 @@ class App extends Component {
                   type='number'
                   className='form-control'
                   value={this.state[machine][part]}
-                  onChange={(e) => this.savePart(machine, part, e.target.value)}
+                  onChange={(e) => this.savePart(machine, part, parseInt(e.target.value, 10))}
                 />
               </div>
             </div>
